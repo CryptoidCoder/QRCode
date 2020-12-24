@@ -16,6 +16,8 @@ To Read QR Codes:
 ## For Inventory System:
 To Create QR Codes:
 ```Inventory-Create.py``` - This will create the list of the Name, and what item numbers you need.
+
 Then...
+
 ```Inventory-Make.py``` - this will turn the list into Qr Codes for you to put on each of the items
 
