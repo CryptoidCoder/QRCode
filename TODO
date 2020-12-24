@@ -1,0 +1,2 @@
+- Make a system to read the Inventory QR Codes and have a table of what is in and what is out.
+- Make this able to have the following features: Who booked it in/out, how many are in/out, if they are available (have a advanced booking service.), If any are broken.
