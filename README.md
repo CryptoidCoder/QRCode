@@ -1,23 +1,20 @@
 # QRCode
 
 This is for making text inputs or links into QR codes.
+And an inventory system using QR Codes/
 
-## To run:
-```pip install requirements.txt```
 
-## For Normal QR-Codes:
+## To Run:
+```pip install -r requirements.txt``` - To install all the required modules
+
+### To run inventory create & make system:
+```start both.sh``` - on windows *OR* ```sh both.sh``` on unix
+
+===========================================
+
+### For Normal QR-Codes:
 To create QR Codes:
 ```python Create.py```
 
-To Read QR Codes:
+### To Read QR Codes:
 ```python Read-Data.py```
-
-
-## For Inventory System:
-To Create QR Codes:
-```Inventory-Create.py``` - This will create the list of the Name, and what item numbers you need.
-
-Then...
-
-```Inventory-Make.py``` - this will turn the list into Qr Codes for you to put on each of the items
-
