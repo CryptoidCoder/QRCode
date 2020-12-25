@@ -8,7 +8,7 @@ And an inventory system using QR Codes/
 ```pip install -r requirements.txt``` - To install all the required modules
 
 ### To run inventory create & make system:
-```start both.sh``` - on windows *OR* ```sh both.sh``` on unix
+```start Inventory-Create.sh``` - on windows *OR* ```sh Inventory-Create.sh``` on unix
 
 ===========================================
 
