@@ -21,7 +21,7 @@ with open('Name&Number.csv', 'w', newline='') as csvfile:
     filewriter = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
     for i in range(numberofitems):
-        name = itemname + " - " + number
+        name = "QR-" + itemname + "-" + number
         filewriter.writerow([name, number])
         number = int(number) + 1
         number = '%06d' % number
