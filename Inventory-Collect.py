@@ -19,6 +19,7 @@ print("data = "+ data) # data = the data from the QR Code in the form of a strin
 # Now need to find the word "QR" as the format for all QR-code names is "QR-Name-Number" where Name & Number change but "QR" doesn't. {This is fine for now as we only read one file at a time so there is only one dataset}
 # Then need to take the line after QR out and put save it as a seperate string.
 
-for i in range(0, len(data), 15):    
+for i in range(0, len(data), 15):
     seperated_data = (data[i:i+15])
     print(seperated_data)
+    
